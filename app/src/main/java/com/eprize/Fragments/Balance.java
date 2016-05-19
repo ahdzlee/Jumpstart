@@ -26,6 +26,7 @@ public class Balance extends Fragment {
 
 
     public static Balance newInstance() {
+
         return new Balance();
     }    @Override
          public void onCreate(@Nullable Bundle savedInstanceState) {

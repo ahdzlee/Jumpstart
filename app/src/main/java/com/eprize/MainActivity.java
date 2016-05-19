@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.eprize.Fragments.Advertisements;
 import com.eprize.Fragments.Balance;
 import com.eprize.Fragments.InvestedCompanies;
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity
 
     InvestedCompanies mInvestedCompanies;
     Balance mBalance;
+    Advertisements mAd;
 
 
     @Override
@@ -119,6 +121,16 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_project) {
 
         } else if (id == R.id.nav_advertisement) {
+
+            mAd = Advertisements.newInstance();
+
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+                    .replace(R.id.fragmentContainer, mAd)
+                    .commit();
+
+            getSupportActionBar().setTitle("Invested Companies");
 
         }
 
