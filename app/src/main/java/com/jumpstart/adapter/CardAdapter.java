@@ -1,4 +1,4 @@
-package com.eprize.adapter;
+package com.jumpstart.adapter;
 
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.eprize.R;
-import com.eprize.recycler_model.Category;
+import com.jumpstart.R;
+import com.jumpstart.recycler_model.Category;
 
 import java.util.ArrayList;
 import java.util.List;

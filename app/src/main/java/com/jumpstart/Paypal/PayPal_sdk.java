@@ -1,8 +1,7 @@
-package com.eprize.Paypal;
+package com.jumpstart.Paypal;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -10,13 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.eprize.R;
+import com.jumpstart.R;
 //import com.paypal.android.sdk.payments.PayPalConfiguration;
 //import com.paypal.android.sdk.payments.PayPalPayment;
 //import com.paypal.android.sdk.payments.PayPalService;
 //import com.paypal.android.sdk.payments.PaymentActivity;
-
-import java.math.BigDecimal;
 
 
 public class PayPal_sdk extends ActionBarActivity {

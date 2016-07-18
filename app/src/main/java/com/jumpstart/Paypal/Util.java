@@ -1,4 +1,4 @@
-package com.eprize.Paypal;
+package com.jumpstart.Paypal;
 
 /**
  * Created by Dell on 4/7/2015.

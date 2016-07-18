@@ -1,4 +1,4 @@
-package com.eprize.Paypal;
+package com.jumpstart.Paypal;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.eprize.Fragments.Advertisements;
-import com.eprize.R;
+import com.jumpstart.Fragments.Advertisements;
+import com.jumpstart.R;
 
 
 public class PayPal_selection extends ActionBarActivity implements View.OnClickListener {

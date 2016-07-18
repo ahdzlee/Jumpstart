@@ -1,4 +1,4 @@
-package com.eprize.recycler_model;
+package com.jumpstart.recycler_model;
 
 /**
  * Created by renato.antonino1 on 03/10/2015.

@@ -1,4 +1,4 @@
-package com.eprize;
+package com.jumpstart;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -14,9 +14,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.eprize.Fragments.Advertisements;
-import com.eprize.Fragments.Balance;
-import com.eprize.Fragments.InvestedCompanies;
+import com.jumpstart.Fragments.Advertisements;
+import com.jumpstart.Fragments.Balance;
+import com.jumpstart.Fragments.InvestedCompanies;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -50,6 +50,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+//        CardPagerAdapter adapter = new CardPagerAdapter(getFragmentManager());
+//        ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
+//        viewPager.setAdapter(adapter);
     }
 
     @Override
@@ -61,6 +65,23 @@ public class MainActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
+
+//    public class CardPagerAdapter extends android.support.v13.app.FragmentPagerAdapter {
+//
+//        public CardPagerAdapter(FragmentManager fm) {
+//            super(fm);
+//        }
+//
+//        @Override
+//        public Fragment getItem(int i) {
+//            return new CardContainerFragment();
+//        }
+//
+//        @Override
+//        public int getCount() {
+//            return 5;
+//        }
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

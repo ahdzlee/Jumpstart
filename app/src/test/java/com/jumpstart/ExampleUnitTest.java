@@ -1,4 +1,4 @@
-package com.eprize;
+package com.jumpstart;
 
 import org.junit.Test;
 
